@@ -1,0 +1,29 @@
+
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script type="text/javascript" src="newproject.js">
+</script>
+</head>
+
+<body>
+<h4 align="center">New Project</h4>
+<form action="http://49.206.191.46:8000/Ravi/MyProjects_insert" method="post" name="newproject1" onSubmit="return validate()">
+<table border="0" align="center">
+<tr><td height="38">Category:<select size="1" name="category">
+<option value="General" selected="selected">General</option>
+</select></td><td></td></tr>
+<tr><td height="45">Name:<input type="text" size="20" name="name"/></td><td>Phase:<select size="1" name="phase">
+<option value="In Progress" selected="selected">In Progress</option></select></td></tr>
+<tr><td height="41">Start:<input type="text" size="10" name="start"/></td><td>Deadline:<input type="text" size="10" name="deadline"/></td></tr>
+<tr><td height="44">Manager:<input type="text" size="20" name="manager"/></td><td></td></tr>
+<tr><td height="93" >
+Description:<textarea rows="3" cols="20" name="desc">
+</textarea></td></tr>
+<tr><td><input type="submit" value="submit"/></td></tr>
+</table>
+</form>
+
+</body>
+</html>
